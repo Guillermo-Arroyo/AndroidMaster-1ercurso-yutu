@@ -121,7 +121,8 @@
                 android:layout_height="wrap_content"
                 android:stepSize="1"
                 android:valueFrom="120"
-                android:valueTo="200" />
+                android:valueTo="200"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -170,19 +171,20 @@
                     android:id="@+id/btnSubtractWeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:backgroundTint="@color/background_fab"
                     android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_substract"
+                    app:backgroundTint="@color/background_fab"
                     app:tint="@color/white"
-                    android:src="@drawable/ic_substract">
-                </com.google.android.material.floatingactionbutton.FloatingActionButton>
+                    tools:ignore="SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/btnPlusWeight"
                     android:layout_width="wrap_content"
-                    app:backgroundTint="@color/background_fab"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_plus"
-                    app:tint="@color/white">
+                    app:backgroundTint="@color/background_fab"
+                    app:tint="@color/white"
+                    tools:ignore="SpeakableTextPresentCheck">
 
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
@@ -237,19 +239,22 @@
                     android:id="@+id/btnSubtractAge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:backgroundTint="@color/background_fab"
                     android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_substract"
+                    app:backgroundTint="@color/background_fab"
                     app:tint="@color/white"
-                    android:src="@drawable/ic_substract">
+                    tools:ignore="SpeakableTextPresentCheck">
+
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/btnPlusAge"
                     android:layout_width="wrap_content"
-                    app:backgroundTint="@color/background_fab"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_plus"
-                    app:tint="@color/white">
+                    app:backgroundTint="@color/background_fab"
+                    app:tint="@color/white"
+                    tools:ignore="SpeakableTextPresentCheck">
 
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
