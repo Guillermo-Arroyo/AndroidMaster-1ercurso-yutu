@@ -22,6 +22,7 @@ class ResultIMCActivity : AppCompatActivity() {
         initComponents()
         initUI(result)
         initListener()
+
     }
 
     private fun initListener() {
